@@ -1,0 +1,13 @@
+{
+  "name": "Артемиум",
+  "icon": "magicat:artemium",
+  "category": "magicat:materials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "magicat:artemium",
+      "text": "Получается в $(l:blocks/arteminfuser)Заварнике Артёма$() из 1 алмаза и 1 незеритого слитка."
+    }
+  ],
+  "advancement": "magicat:netherite"
+}

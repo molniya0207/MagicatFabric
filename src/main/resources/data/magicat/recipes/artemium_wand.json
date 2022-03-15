@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#TM",
+    "TBT",
+    "ETI"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:golden_sword"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "M": {
+      "item": "magicat:artemium"
+    },
+    "B": {
+      "item": "magicat:manacrystal"
+    },
+    "E": {
+      "item": "magicat:catalyzer"
+    },
+    "I": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "item": "magicat:artemium_wand",
+    "count": 1
+  }
+}

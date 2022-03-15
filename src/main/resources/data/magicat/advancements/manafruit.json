@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "magicat:manafruit"
+    },
+    "title": {
+      "translate": "advancements.manafruit.title"
+    },
+    "description": {
+      "translate": "advancements.manafruit.description"
+    }
+  },
+  "parent": "magicat:magicat",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["magicat:manafruit"]
+          }
+        ]
+      }
+    }
+  }
+}

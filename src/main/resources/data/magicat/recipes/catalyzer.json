@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#EE",
+    "EME",
+    "EE#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_block"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "M": {
+      "item": "magicat:manacrystal"
+    }
+  },
+  "result": {
+    "item": "magicat:catalyzer",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "magicat:arteminfuser"
+    },
+    "title": {
+      "translate": "advancements.arteminfuser.title"
+    },
+    "description": {
+      "translate": "advancements.arteminfuser.description"
+    }
+  },
+  "parent": "magicat:netherite",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["magicat:arteminfuser"]
+          }
+        ]
+      }
+    }
+  }
+}

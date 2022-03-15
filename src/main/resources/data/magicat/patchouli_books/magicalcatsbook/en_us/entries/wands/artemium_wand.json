@@ -1,0 +1,13 @@
+{
+  "name": "Палочка из артемиума",
+  "icon": "magicat:artemium_wand",
+  "category": "magicat:wands",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "magicat:artemium_wand",
+      "text": "Ваша первая палочка!"
+    }
+  ],
+  "advancement": "magicat:manafruit"
+}

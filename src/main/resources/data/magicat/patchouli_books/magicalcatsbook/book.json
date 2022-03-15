@@ -1,0 +1,7 @@
+{
+  "name": "Магические Коты",
+  "landing_text": "Гав-гав, ой бай, мяу-мяу",
+  "version": 1,
+  "model": "magicat:magicalcats",
+  "creative_tab": "magicat.magicattab"
+}

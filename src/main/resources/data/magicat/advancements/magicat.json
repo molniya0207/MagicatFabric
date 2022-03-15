@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "magicat:manacrystal"
+    },
+    "title": {
+      "translate": "advancements.magicat.title"
+    },
+    "description": {
+      "translate": "advancements.magicat.description"
+    },
+    "background": "magicat:textures/misc/advbg.png"
+  },
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond"]
+          }
+        ]
+      }
+    }
+  }
+}

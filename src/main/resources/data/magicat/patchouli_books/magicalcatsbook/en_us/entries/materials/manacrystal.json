@@ -1,0 +1,13 @@
+{
+  "name": "Кристалл Маны",
+  "icon": "magicat:manacrystal",
+  "category": "magicat:materials",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "magicat:manacrystal",
+      "text": "Кристалл который позволяет хранить и использовать ману."
+    }
+  ],
+  "advancement": "magicat:artemium"
+}

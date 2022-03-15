@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#DL",
+    "DMD",
+    "LDL"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:water_bucket"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "M": {
+      "item": "magicat:artemium"
+    }
+  },
+  "result": {
+    "item": "magicat:manacrystal",
+    "count": 2
+  }
+}

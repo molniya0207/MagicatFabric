@@ -1,0 +1,15 @@
+{
+  "name": "Lexa lox",
+  "icon": "magicat:magicalcats",
+  "category": "magicat:mobs",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Миньоны $(#0f0)$(l:bosses/clown)Клоуна$().$(br)Дропает $(#0f0)$(l:misc/hangjaw)Челюсть Хэнга$()"
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:zombie"
+    }
+  ]
+}

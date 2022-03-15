@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#QC",
+    "QQQ",
+    "QLQ"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "magicat:arteminfuser",
+    "count": 1
+  }
+}

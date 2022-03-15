@@ -1,30 +1,49 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "magicat",
+  "version": "1.0.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Magicat",
+  "description": "This is mod about magic and cats.",
   "authors": [
-    "Me!"
+    "Stopper"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://mcauth.one/",
+    "sources": "https://github.com/molniya0207/MagicatFabric"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/magicat/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "one.mcauth.magicatfabric.Magicat"
+    ],
+    "client": [
+      "one.mcauth.magicatfabric.client.MagicatClient"
+    ],
+    "server": [
+      "one.mcauth.magicatfabric.server.MagicatServer",
+      "one.mcauth.magicatfabric.server.ServerPacketHelper"
+    ],
+    "cardinal-components": [
+      "one.mcauth.magicatfabric.MagicatComponents"
+    ],
+    "rei": [
+      "one.mcauth.magicatfabric.rei.MagicatREIServer",
+      "one.mcauth.magicatfabric.rei.MagicatREIClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "magicat.mixins.json"
   ],
+  "custom": {
+    "cardinal-components": [
+      "magicat:manacomponent"
+    ]
+  },
 
   "depends": {
     "fabricloader": ">=0.13.3",
@@ -32,7 +51,5 @@
     "minecraft": "1.18.x",
     "java": ">=17"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "suggests": {}
 }

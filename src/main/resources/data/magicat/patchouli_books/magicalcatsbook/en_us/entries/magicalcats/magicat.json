@@ -1,0 +1,11 @@
+{
+  "name": "Magicat",
+  "icon": "magicat:magicalcats",
+  "category": "magicat:magicalcats",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Добро пожаловать в новый убогий мод от шизика про котов, магию, магов, и котов магов.$(br)(мой шизометр зашкаливает)"
+    }
+  ]
+}

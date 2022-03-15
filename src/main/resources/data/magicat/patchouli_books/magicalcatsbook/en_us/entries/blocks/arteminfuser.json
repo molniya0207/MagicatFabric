@@ -1,0 +1,13 @@
+{
+  "name": "Заварник Артёма",
+  "icon": "magicat:arteminfuser",
+  "category": "magicat:blocks",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "magicat:arteminfuser",
+      "text": "Блок для крафта $(l:materials/artemium)артемиума$()."
+    }
+  ],
+  "advancement": "magicat:netherite"
+}

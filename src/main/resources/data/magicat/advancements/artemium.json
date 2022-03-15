@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "magicat:artemium"
+    },
+    "title": {
+      "translate": "advancements.artemium.title"
+    },
+    "description": {
+      "translate": "advancements.artemium.description"
+    }
+  },
+  "parent": "magicat:arteminfuser",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["magicat:artemium"]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Катализатор",
+  "icon": "magicat:catalyzer",
+  "category": "magicat:materials",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "magicat:catalyzer",
+      "text": "Ускоряет и помогает магическим процессом."
+    }
+  ],
+  "advancement": "magicat:artemium"
+}

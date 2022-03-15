@@ -1,0 +1,13 @@
+{
+  "name": "Мана Фрукт",
+  "icon": "magicat:manafruit",
+  "category": "magicat:food",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "magicat:manafruit",
+      "text": "Даёт +5 маны и разблокирует доступ к мане!"
+    }
+  ],
+  "advancement": "magicat:magicat"
+}
